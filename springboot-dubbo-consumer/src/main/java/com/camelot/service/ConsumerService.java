@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ConsumerService {
+
     @Reference
     private ProvideService provideService;
 
