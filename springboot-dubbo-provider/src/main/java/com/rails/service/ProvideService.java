@@ -1,4 +1,4 @@
-package com.camelot.service;
+package com.rails.service;
 
 public interface ProvideService {
     public String sayHello(String name);

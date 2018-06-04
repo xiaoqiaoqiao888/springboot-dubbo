@@ -1,4 +1,4 @@
-package com.camelot.service;
+package com.rails.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 
@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ConsumerService {
+
     @Reference
     private ProvideService provideService;
 

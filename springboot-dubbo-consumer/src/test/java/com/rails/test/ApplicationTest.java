@@ -1,4 +1,4 @@
-package com.camelot.test;
+package com.rails.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.camelot.service.ConsumerService;
+import com.rails.service.ConsumerService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

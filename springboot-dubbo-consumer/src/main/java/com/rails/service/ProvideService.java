@@ -1,4 +1,4 @@
-package com.camelot.service;
+package com.rails.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.camelot.service.impl;
+package com.rails.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.camelot.service.ProvideService;
+import com.rails.service.ProvideService;
 
 import org.springframework.stereotype.Component;
 
