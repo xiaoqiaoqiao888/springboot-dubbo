@@ -11,12 +11,12 @@ import com.rails.service.ConsumerService;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ApplicationTest {
-    @Autowired
-    private ConsumerService consumerService;
+	@Autowired
+	private ConsumerService consumerService;
 
-    @Test
-    public void getMessage() {
-        String sayHello = consumerService.sayHello(" John-------");
-        System.out.println(sayHello);
-    }
+	@Test
+	public void getMessage() {
+		String sayHello = consumerService.sayHello(" John-------");
+		System.out.println(sayHello);
+	}
 }

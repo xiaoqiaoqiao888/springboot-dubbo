@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 @Service
 public class ProvideServiceImpl implements ProvideService {
 
-    public String sayHello(String name) {
-        return "-------hello" + name;
-    }
+	public String sayHello(String name) {
+		return "-------hello" + name;
+	}
 
 }
